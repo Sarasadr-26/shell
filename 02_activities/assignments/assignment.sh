@@ -1,6 +1,5 @@
 #!/bin/bash
 set -x
-
 ############################################
 # DSI CONSULTING INC. Project setup script #
 ############################################
@@ -49,5 +48,4 @@ rm ./data/raw/*ipaddr*
 touch ./data/inventory.txt
 find ./data/processed -type f > ./data/inventory.txt
 ###########################################
-
 echo "Project setup is complete!"
